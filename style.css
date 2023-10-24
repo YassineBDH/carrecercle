@@ -1,0 +1,97 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li:hover{
+color: red;
+border-right:4px solid green;
+}
+/* .cercle{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 139, 58); */
+/* } */
+.carre{
+    display: flex;
+    justify-content: space-between;
+}
+.rotate{
+    background-color: brown;
+}
+.square1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 0%;
+}
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 0%;
+}
+.square4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 0%;
+}
+.square5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 0%;
+}
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 0%;
+    animation: rotation 5s ease infinite;
+}
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg) scale(1);
+        border-radius: 0%;
+    }
+    100%{
+        transform: rotate(90deg) scale(01) ;
+        border-radius: 50%;
+    }
+}
+
+h1{
+    background-color: darkorange;
+    animation: anime 5s ease infinite;
+}
+@keyframes anime{
+
+    0%{
+        color: red;
+        background-color: burlywood;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    25%{
+color: darkslategrey;
+background-color: lightsalmon;
+font-family: 'Times New Roman', Times, serif;
+    }
+    50%{
+color: darkcyan;
+background-color: darkblue;
+font-family: Arial, Helvetica, sans-serif;
+    }
+    100%{
+        color: darkmagenta;
+        background-color: navy;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
